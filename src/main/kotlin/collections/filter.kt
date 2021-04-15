@@ -7,7 +7,7 @@ val words = listOf<String>("first","element","of","found","the","list","last")
 fun main() {
     println("${nos.count()}digits are there")
     println("${nos.count { it % 2 == 0 }} even nos are there")
-    
+
     val first = words.find { it.startsWith("f") }
     println(first)
     val last = words.findLast { it.startsWith("f") }
