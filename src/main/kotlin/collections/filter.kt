@@ -7,4 +7,6 @@ fun main() {
     val positives = nos.filter { it > 0}
             //x -> x>0 }
     println(positives)
+    val doubles = nos.map { x -> x*2 }
+    print("doubles = $doubles")
 }
