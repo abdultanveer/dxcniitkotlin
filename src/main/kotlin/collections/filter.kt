@@ -8,5 +8,8 @@ fun main() {
             //x -> x>0 }
     println(positives)
     val doubles = nos.map { x -> x*2 }
-    print("doubles = $doubles")
+    println("doubles = $doubles")
+    println("is any of the no is greater than 2"+nos.any { it > 2 })
+    println("are all the nos less than 5" +nos.all { it < 5 })
+    println("are none of the nos greater than 5"+ nos.none{it > 5})
 }
