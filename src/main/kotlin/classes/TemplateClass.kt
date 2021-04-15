@@ -2,7 +2,7 @@ package classes
 
 import java.util.*
 
-object  TemplateClass {
+object  TemplateClass {//singleton
     fun getNumber(){
         var objRandom = Random()
         println(objRandom.nextInt(90))
