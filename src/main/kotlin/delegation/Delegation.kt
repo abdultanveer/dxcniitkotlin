@@ -12,10 +12,12 @@ class Singer(val song: String):SoundBehaviour by ScreamBehaviour(song){
 //i am not implementing makeSoung of SoundBehaviour instead
     //i am delegating makeSound to ScreamBehaviour class
 }
-
 fun main() {
     val singer = Singer("some song")
     singer.makeSound()
+    var niitJavaStudent = NiitJavaStudent("abdul",123)
+   println(niitJavaStudent.name)
+   println(niitJavaStudent.age)
 
 }
 
